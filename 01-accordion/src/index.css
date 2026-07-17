@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Page background (optional) */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f5f5f5;
+}
+
+/* Accordion container */
+.accordion {
+  max-width: 500px;
+  margin: 40px auto;
+}
+
+/* Individual accordion item */
+.accordion-item {
+  background: #ffffff;
+  border: 1px solid #dcdcdc;
+  border-radius: 6px;
+  margin-bottom: 12px;
+  overflow: hidden;
+}
+
+/* Accordion title */
+.accordion-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 18px;
+  background-color: #f7f7f7;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  transition: background-color 0.2s ease;
+}
+
+.accordion-title:hover {
+  background-color: #ececec;
+}
+
+/* Plus / Minus icon */
+.accordion-icon {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* Accordion content */
+.accordion-content {
+  padding: 16px 18px;
+  border-top: 1px solid #dcdcdc;
+  background-color: #ffffff;
+  color: #555;
+  line-height: 1.6;
+  font-size: 15px;
+}
+
+/* Empty message */
+.empty-message {
+  text-align: center;
+  margin-top: 40px;
+  color: #666;
+  font-size: 16px;
+}
